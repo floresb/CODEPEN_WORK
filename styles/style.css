@@ -81,7 +81,7 @@ p{
 
 }
 
-.col-2 img {
+.col-2 .land-img {
     max-width: 100%;
     /* padding: 50px 0; */
     border-radius: 25px;
@@ -181,4 +181,18 @@ p{
 
 .col-4:hover{
     transform: translateY(-5px);
+}
+
+.offer {
+    margin-top: 80px;
+    padding: 30px 0;
+    background: radial-gradient(#ebf8e1,#f69d3c);
+}
+.col-2 .offer-img {
+    /* padding: 50px; */
+    margin: 50px;
+    max-width: 75%;
+    border-radius: 25px;
+    border: 3px solid rgb(233, 231, 222);
+    
 }

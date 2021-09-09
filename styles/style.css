@@ -57,9 +57,9 @@ a {
     text-decoration: none;
     color: black;
 }
-p{
+/* p{
     color: black;
-}
+} */
 
 .container {
     max-width: 1300px;
@@ -298,4 +298,24 @@ footer h3 {
 
 ul {
     list-style: none;
+}
+
+.footer-col-2 img{
+    max-height: 100px;
+    max-width: 50px;
+    border-radius: 10px;
+}
+
+.app-logo{
+    margin-top: 20px;
+
+}
+
+.app-logo img{
+    width: 160px;
+}
+
+.google{
+    height: 70px;
+    width: 140px;
 }

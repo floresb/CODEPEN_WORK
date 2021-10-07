@@ -32,6 +32,7 @@ body {
     bottom: 0;
     left: 50%;
     transform:  translate(-50%);
+    z-index: 0;
 }
 
 
@@ -331,7 +332,8 @@ footer hr{
     text-align: center;
 }
 
-.menu-icon{
+/* menu-icon */
+.fa-bars{
     width: 28px;
     margin-left: 20px;
     display: none;
@@ -345,6 +347,9 @@ footer hr{
         left: 0;
         background: #333;
         width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        z-index: 1;
 
     }
 
@@ -361,4 +366,17 @@ footer hr{
         cursor: pointer;
     }
 
+}
+
+
+/* ------------media query for menu less than 600 screen size */
+@media only screen and (max-width:800px) {
+    .row{
+        text-align: center;
+
+    }
+    .col-2, .col-3, .col-4{
+        flex-basis: 100%;
+
+    }
 }
